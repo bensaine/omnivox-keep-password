@@ -1,0 +1,16 @@
+{
+    "name": "Omnivox Keep Password",
+    "description": "Disable requests from Omnivox to change password",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "webRequest",
+        "*://*.omnivox.ca/*",
+        "webRequestBlocking"
+    ]
+}
