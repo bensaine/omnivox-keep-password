@@ -6,7 +6,7 @@ chrome.webRequest.onBeforeRequest.addListener(
         urls: [
             "*://*.omnivox.ca/intr/Module/Profil/ExpirationMotPasse.aspx*",
         ],
-        types: ["main_frame", "sub_frame", "stylesheet", "script", "image", "object", "xmlhttprequest", "other"]
+        types: ["main_frame", "stylesheet", "script", "image", "object", "xmlhttprequest", "other"]
     },
     ["blocking"]
 );
